@@ -125,6 +125,13 @@ button.navbar-toggler { /* Mobile dropdown menu icon outline */
 
 /* End header */
 
+/* Jumbotron image */
+
+#main-content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 /* ================================================== */
 
 /* Media queries */
