@@ -1,0 +1,28 @@
+#title-header {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#categories-list {
+    margin-bottom: 40px;
+}
+
+.category-tile { /* Menu tiles */
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.category-tile span { /* Menu tiles text labels */
+    text-transform: uppercase;
+    font-size: 1.5em;
+    max-width: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: #000000C0; /* Background mostly opaque but not entirely (RGBA) */
+    color: #ffffff;
+    margin: auto
+}
