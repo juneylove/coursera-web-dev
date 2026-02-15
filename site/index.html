@@ -21,85 +21,18 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
+    <!-- Component scripts -->
+
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+
 </head>
 
 <body>
 
     <!-- Header -->
 
-    <header>
-
-        <div id="phone-mobile">
-
-            <a href="tel:410-602-5008" class="text-decoration-none">
-                <span>We Deliver! 410-602-5008</span>
-            </a>
-        </div>
-        
-        <nav id="header-nav" class="navbar navbar-default navbar-expand-md">
-            <div class="container d-flex">
-                
-                <div class="navbar-header align-self-start">
-
-                    <a href="index.html" class="float-start collapse navbar-collapse">
-                        <div id="logo-img" alt="Logo image"></div>
-                    </a>
-
-                    <div class="navbar-brand">
-                        <a href="index.html" class="text-decoration-none"><h1>David Chu's China Bistro</h1></a>
-                        <p>
-                            <img src="images/star-k-logo.png" alt="Kosher certification">
-                            <span>Kosher Certified</span>
-                        </p>
-                    </div>
-
-                </div>
-
-                <button type="button" class="navbar-toggler mb-auto" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-expanded="false" aria-controls="collapsable-nav">
-                    <span class="visually-hidden">Toggle navigation</span>
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div id="nav-buttons" class="container d-flex flex-column">
-
-                    <div id="collapsable-nav" class="collapse navbar-collapse align-self-end">
-                        <ul id="nav-list" class="nav navbar-nav">
-
-                            <li>
-                                <a href="menu-categories.html" class="text-decoration-none">
-                                    <span class="bi bi-fork-knife"></span><br class="collapse navbar-collapse">Menu
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-decoration-none">
-                                    <span class="bi bi-info-circle-fill"></span><br class="collapse navbar-collapse">About
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-decoration-none">
-                                    <span class="bi bi-award-fill"></span><br class="collapse navbar-collapse">Awards
-                                </a>
-                            </li>
-
-                            <li id="phone" class="collapse navbar-collapse" >
-                                <div>
-                                    <a href="tel:410-602-5008" class="text-decoration-none">
-                                        <span>410-602-5008</span>
-                                    </a>
-                                    <br>
-                                    <span>We Deliver!</span>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-
-                </div>
-
-            </div>
-        </nav>
-
-    </header>
+    <header-component></header-component>
 
     <!-- Jumbotron -->
 
@@ -114,14 +47,14 @@
         <div class="row">
 
             <div id="menu-tile" class="col-12 col-sm-6 col-lg-4">
-                <a href="menu-categories.html">
+                <a href="./menu-categories.html">
                     <span class="rounded-bottom">Menu</span>
                     <img src="./images/menu-tile.jpg" class="img-fluid rounded" alt="Restaurant menu">
                 </a>
             </div>
 
             <div id="specials-tile" class="col-12 col-sm-6 col-lg-4">
-                <a href="category-specials.html">
+                <a href="./category-specials.html">
                     <span class="rounded-bottom">Specials</span>
                     <img src="./images/specials-tile.jpg" class="img-fluid rounded" alt="Menu specials">
                 </a>
@@ -140,52 +73,7 @@
 
     <!-- Footer -->
 
-    <footer>
-        
-        <div id="footer-info" class="container">
-            
-            <div class="row">
-
-                <div class="col-12 col-lg-4">
-
-                    <h4>Hours:</h4>
-                    <p>Sun-Thurs: 11:15am - 10:00pm</p>
-                    <p>Fri: 11:15am - 2:30pm</p>
-                    <p>Saturday: Closed</p>
-
-                </div>
-
-                <hr class="footer-divider">
-
-                <div class="col-12 col-lg-4">
-
-                    <h4>Address:</h4>
-                    <p>7105 Reisterstown Road</p>
-                    <p>Baltimore, MD 21215</p>
-                    <p id="delivery-disclaimer">*Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
-                    
-                </div>
-
-                <hr class="footer-divider">
-
-                <div id="testimonials" class="col-12 col-lg-4">
-
-                    <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
-                    <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
-                    
-                </div>
-
-            </div>
-
-            <div id="copyright-info" class="text-center">
-
-                <span>&copy; Copyright github/juneylove 2026</span>
-
-            </div>
-
-        </div>
-
-    </footer>
+    <footer-component></footer-component>
 
     <!-- Scripts -->
 
