@@ -1,0 +1,28 @@
+#jumbotron { /* Jumbotron image */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#home-tiles div div { /* Navigation tiles */
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#home-tiles div div a span { /* Navigation tiles text labels */
+    text-transform: uppercase;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: #000000C0; /* Background mostly opaque but not entirely (RGBA) */
+    color: #ffffff;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#map-embed { /* why do i have to set these. */
+    width: 100%;
+    height: 100%;
+}
