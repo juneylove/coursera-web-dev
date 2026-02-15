@@ -125,18 +125,40 @@ button.navbar-toggler { /* Mobile dropdown menu icon outline */
 
 /* End header */
 
-/* Jumbotron image */
-
-#main-content {
+#jumbotron { /* Jumbotron image */
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+#home-tiles div div { /* Navigation tiles */
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#home-tiles div div a span { /* Navigation tiles text labels */
+    text-transform: uppercase;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: #000000C0; /* Background mostly opaque but not entirely (RGBA) */
+    color: #ffffff;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#map-embed { /* why do i have to set these. */
+    width: 100%;
+    height: 100%;
 }
 
 /* ================================================== */
 
 /* Media queries */
 
-@media (768px <= width) { /* Small or larger */
+@media (768px <= width) { /* Medium or larger (non-collapsed layout) */
 
     #phone-mobile {
         display: none;
@@ -144,7 +166,7 @@ button.navbar-toggler { /* Mobile dropdown menu icon outline */
 
 }
 
-@media (992px <= width < 1200px) { /* Medium */
+@media (992px <= width < 1200px) { /* Large */
 
     #logo-img {
         background: url("../images/restaurant-logo_medium.png") no-repeat;
@@ -159,7 +181,7 @@ button.navbar-toggler { /* Mobile dropdown menu icon outline */
 
 }
 
-@media (768px <= width) and (width < 992px) { /* Small */
+@media (768px <= width) and (width < 992px) { /* Medium */
 
     #logo-img {
         background: url("../images/restaurant-logo_medium.png") no-repeat;
@@ -178,7 +200,7 @@ button.navbar-toggler { /* Mobile dropdown menu icon outline */
 
 }
 
-@media (width < 768px) { /* Extra small */
+@media (width < 768px) { /* Small */
 
     .navbar-brand {
         padding-top: 25px;
