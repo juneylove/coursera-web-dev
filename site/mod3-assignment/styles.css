@@ -1,0 +1,43 @@
+h1 {
+    color: #ffffff;
+}
+
+#header-nav {
+    background-color: #505050;
+}
+
+#header-nav button {
+    margin-top: auto;
+    margin-bottom: auto;
+    border-color: #ffffffa0;
+}
+
+#collapsable-nav li a {
+    color: #ffffff;
+}
+
+#collapsable-nav hr {
+    color: #ffffffa0;
+}
+
+#menu-text {
+    background-color: #a0a0a0;
+}
+
+@media (width >= 768px) {
+
+    #collapsable-nav {
+        display: none !important;
+    }
+
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
